@@ -591,6 +591,20 @@ section {
   color: var(--text-muted);
 }
 
+.footer-beian {
+  margin-top: 6px;
+  font-size: 0.82rem;
+}
+
+.footer-beian a {
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+.footer-beian a:hover {
+  color: var(--primary);
+}
+
 /* Scroll reveal */
 .reveal {
   opacity: 0;
